@@ -2,9 +2,14 @@ package com.driver;
 
 public class Boat implements WaterVehicle {
 
+
     private String type;
     private int capacity;
 
+    public Boat(String type,int capacity){
+        this.type=type;
+        this.capacity=capacity;
+    }
     public String getType() {
         return type;
     }
