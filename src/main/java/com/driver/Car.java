@@ -72,7 +72,7 @@ public class Car extends Vehicle {
         super(name);
         this.wheels=wheels;
         this.doors=doors;
-        this.gears=1;
+        this.gears = 1 ;
         this.isManual=isManual;
         this.type=type;
         this.seats=seats;
@@ -81,7 +81,7 @@ public class Car extends Vehicle {
 
     public void changeGear(int newGear){
         this.currentGear = newGear;
-        System.out.println("changeGear method called - The gear is changed to: " + currentGear);
+        System.out.println("changeGear method called - The gear is changed to: " + this.currentGear);
     }
 
     public void changeSpeed(int newSpeed, int newDirection){
